@@ -1,0 +1,70 @@
+{
+    "service": [
+        {
+            "login": {
+                "id": 1
+            },
+            "name": "LABORATORY",
+            "price": "300",
+            "booking": "01786765338",
+            "description": " Chamber Time: 6PM-9PM Off Day: Everyday Open ",
+            "address": " Floor Number: 2nd, Room Number:315  ",
+            "img": "https://image.freepik.com/free-vector/hospital-laboratory-concept_1284-5844.jpg"
+        },
+        {
+            "login": {
+                "id": 2
+            },
+            "name": "BED ALIGNMENT",
+            "price": "100",
+            "booking": "01686765338",
+            "description": " Chamber Time: 6PM-9PM Off Day: Everyday Open ",
+            "address": " Floor Number: 2nd, Room Number:315  ",
+            "img": "https://image.freepik.com/free-vector/boy-resting-hospital_1308-27179.jpg"
+        },
+        {
+            "login": {
+                "id": 3
+            },
+            "name": "OPERATION THEATER",
+            "price": "150",
+            "booking": "01786765357",
+            "description": " Chamber Time: 6 PM -9 PM Off Day: Thu & Friday Closed  ",
+            "address": " Floor Number: 2nd, Room Number:309  ",
+            "img": "https://image.freepik.com/free-vector/medical-equipment-isometric-composition-with-human-characters-doctors-surgery-room-with-operating-room-equipment-vector-illustration_1284-30043.jpg"
+        },
+        {
+            "login": {
+                "id": 4
+            },
+            "name": "ISOMATRIC ILLUSTRUCTIONS",
+            "price": "180",
+            "booking": "01786765332",
+            "description": " Chamber Time: 6PM-9PM Off Day: Everyday Open ",
+            "address": " Floor Number: 3rd, Room Number:415  ",
+            "img": "https://image.freepik.com/free-vector/set-3d-flat-isometric-illustrations-medical-premises-clinic-with-appropriate-equipment_1441-298.jpg"
+        },
+        {
+            "login": {
+                "id": 5
+            },
+            "name": "CANCER SURGERY DEPARTMENT",
+            "price": "100",
+            "booking": "01786765335",
+            "description": " Chamber Time: 6PM-9PM Off Day: Friday & Monday ",
+            "address": " Floor Number: 2nd, Room Number:315  ",
+            "img": "https://image.freepik.com/free-vector/defeat-cancer-surgery-orthogonal-composition_1284-21242.jpg"
+        },
+        {
+            "login": {
+                "id": 6
+            },
+            "name": "DOCTOR CONSULTATION",
+            "price": "300",
+            "booking": "01786765356",
+            "description": " Chamber Time: 6PM-9PM Off Day: Everyday Open ",
+            "address": " Floor Number: 5th, Room Number:317  ",
+            "img": "https://image.freepik.com/free-photo/medical-team-posing-with-copy-space_23-2147650225.jpg"
+        }
+    ]
+}
