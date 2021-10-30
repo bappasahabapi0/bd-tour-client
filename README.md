@@ -40,7 +40,7 @@ Live Site Link: [BD-Tour](https://thakurgaon-hospital.web.app/).
                                 --packeges
                                 --Services
 
-## Used
+## Used module in this project
 
         --React Bootstrap
         --React Router Dom
