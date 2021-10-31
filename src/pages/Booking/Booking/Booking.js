@@ -27,7 +27,7 @@ const Booking = () => {
             <br /> <br />
             <h3 className="fw-bolder  "> {service?.name} SERVICE IS BOOKED .  </h3>
             <h3 className="fw-bolder  ">  Click 👇 to continue  </h3>
-            <Link to="/managetour">
+            <Link to="/tourplan">
                 <button className="btn btn-warning   mt-2 ms-3 mb-4 fw-bold p-3 rounded-pill"> 🟢 Place Order ▶▶  </button>
             </Link> <br />
             <img className="w-25  rounded-3 " src={service?.img} alt="" /> <br />

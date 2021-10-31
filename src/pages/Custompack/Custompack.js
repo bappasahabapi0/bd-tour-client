@@ -23,10 +23,10 @@ const Custompack = () => {
     }
     return (
         <div className="tour" >
-            <Link to="/managetour">
-                <button className="btn btn-warning   mt-5 ms-3 mb-4 fw-bold p-3 rounded-pill"> 🟢🔴🟡 <br /> Manage Your Tour  </button>
-            </Link> <br />
-            <h1 className="mt-5">Booking and place order Your Tour Schedule</h1>
+
+            <h1 className="mt-5" > Booking Your Order by giving proper  </h1>
+            <small><b>[🔹 booked package name, description, tour cost 🔹]</b></small>
+            <br /> <br />
             <form className="m-0" onSubmit={handleSubmit(onSubmit)}>
                 <input className="fw-bold" {...register("name", { required: true, maxLength: 20 })} placeholder=" Package Name" />
                 <textarea className="fw-bold" {...register("description", { required: true })} placeholder=" Package Description" />
@@ -34,6 +34,11 @@ const Custompack = () => {
                 <input className="fw-bold" {...register("img", { required: true })} placeholder=" Give Valid Image Url " />
                 <input className="bg-warning rounded-pill p-2 border-0 fw-bold fs-4" type="submit" />
             </form>
+            <p className="mt-3" ><b> ✅ You find in your booking infomation in the ManageTour sectioin and also find it in the Special package section in the homepage </b><br />
+                <h3>👇</h3> </p>
+            <Link to="/managetour">
+                <button className="btn btn-warning   mt-2 ms-3 mb-2 fw-bold p-3 rounded-pill"> 🟢🔴🟡 <br /> Manage Your Tour  </button>
+            </Link>
         </div>
     );
 };
