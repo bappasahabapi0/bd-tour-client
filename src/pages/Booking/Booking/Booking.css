@@ -3,3 +3,16 @@
   /* background-color: rgb(175, 175, 50); */
   border-radius: 20px;
 }
+
+.tour form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tour form input,
+textarea {
+  width: 30%;
+  margin-bottom: 15px;
+}
