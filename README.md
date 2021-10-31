@@ -1,6 +1,6 @@
 # BD-Tour-Agency(Fully responsive)
 
-Live Site Link: [BD-Tour](https://thakurgaon-hospital.web.app/).
+Live Site Link: [BD-Tour](https).
 
 ## In this project I use
 
@@ -17,11 +17,11 @@ Live Site Link: [BD-Tour](https://thakurgaon-hospital.web.app/).
 
 ### Components
 
-        --src
+        --src:
                 --context
                 --hooks
                 --images
-        --pages
+        --pages:
                 --Booking
                 --CustomPack
                 --Login
@@ -31,7 +31,7 @@ Live Site Link: [BD-Tour](https://thakurgaon-hospital.web.app/).
                 --Shared
                         --Header
                         --Footer
-                --Home
+                --Home:
                         --Header:
                                 --Bannaer
                                 --Offers

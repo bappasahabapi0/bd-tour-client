@@ -7,14 +7,14 @@ const ManageTour = () => {
     const [tours, setTours] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://whispering-beyond-39369.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setTours(data))
     }, []);
 
     //---------------------> HANDLE THE DELETE 
     const handleDelete = id => {
-        const url = `http://localhost:5000/services/${id}`;
+        const url = `https://whispering-beyond-39369.herokuapp.com/services/${id}`;
         fetch(url, {
             method: 'DELETE'
         })

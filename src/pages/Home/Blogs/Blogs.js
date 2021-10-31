@@ -4,7 +4,7 @@ import Blog from '../Blog/Blog';
 const Experts = () => {
     const [blogs, setBlogs] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:5000/blogs`)
+        fetch(`https://whispering-beyond-39369.herokuapp.com/blogs`)
             .then(res => res.json())
             .then(data => setBlogs(data))
     }, []);

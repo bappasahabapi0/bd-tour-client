@@ -16,7 +16,7 @@ const Booking = () => {
 
     // here we load the data
     useEffect(() => {
-        fetch(`http://localhost:5000/services/${serviceId}`)
+        fetch(`https://whispering-beyond-39369.herokuapp.com/services/${serviceId}`)
             .then(response => response.json())
             .then(data => setService(data))
 

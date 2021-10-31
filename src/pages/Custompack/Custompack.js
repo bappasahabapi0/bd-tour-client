@@ -11,7 +11,7 @@ const Custompack = () => {
         console.log(data);
 
         //post related code using axios ---------->
-        axios.post('http://localhost:5000/services', data)
+        axios.post('https://whispering-beyond-39369.herokuapp.com/services', data)
             .then(response => {
                 if (response.data.insertedId) {
                     alert('Your booking is succesfully added');

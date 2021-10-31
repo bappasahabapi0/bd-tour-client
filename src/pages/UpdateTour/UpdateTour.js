@@ -7,7 +7,7 @@ const UpdateTour = () => {
     const { id } = useParams();
 
     useEffect(() => {
-        const url = `http://localhost:5000/services/${id}`;
+        const url = `https://whispering-beyond-39369.herokuapp.com/services/${id}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setpacName(data))
@@ -28,7 +28,7 @@ const UpdateTour = () => {
 
     //----------------> HANDLE THE UPDATE
     const handleUpdatePackage = e => {
-        const url = `http://localhost:5000/services/${id}`;
+        const url = `https://whispering-beyond-39369.herokuapp.com/services/${id}`;
         fetch(url, {
             method: 'PUT',
             headers: {
